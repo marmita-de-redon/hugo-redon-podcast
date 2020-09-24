@@ -27,7 +27,11 @@
 {{- with .Params.shareImage }}
   {{- $image = absURL .  }}
 {{- end }}
+{{ with .Site.Params.ogLocale -}}
+<meta property = "og:locale" content = "{{ . }}" />
+{{- else -}}
 <meta property = "og:locale" content = "en_US" />
+{{- end }}
 {{- if .IsHome }}
 <meta property="og:type" content="website">
 {{- else }}

@@ -10,7 +10,6 @@ paginate = 10
 theme = "hugo-redon-podcast"
 # disqusShortname = # Use this to allow comments on your posts using Disqus
 
-
 DefaultContentLanguage = "en"
 # [languages]
 # config/_default/languages.toml
@@ -19,7 +18,6 @@ DefaultContentLanguage = "en"
 # config/_default/menus/menu.xx.toml
 
 [taxonomies]
-season = "seasons"
 category = "categories"
 tag = "tags"
 series = "series"
@@ -56,6 +54,7 @@ numberOfTagsShown = 14 # Applies for all other default & custom taxonomies. e.g 
 
 # will be used on share >> twitter, facebook, linkedin
 fallBackOgImage = "images/thumbnail.png" 
+
 ogLocale = "en_en"
 
 # sets the maximum number of lines per codeblock. The codeblock will however be scrollable and expandable.
@@ -90,9 +89,10 @@ mobileNavigation = "left" # if you prefer right change to 'right'
 enforceLightMode = false
 # enforceDarkMode = false
 
+<<<<<<< Updated upstream
 # Text for the languages menu.
 languageMenuName = "🌐"
-
+=======
   # Podcast specifics
   [params.feed]
     copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved." #do not use markdown in this field; it is used in the feed
@@ -109,3 +109,4 @@ languageMenuName = "🌐"
     explicit = "clean" # This tag can be a yes / no / clean
     googleplay_explicit = "No" # This tag can be a Yes or No value.
     update_period = "weekly" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
+>>>>>>> Stashed changes

@@ -1,3 +1,12 @@
+# Hugo Redon Podcast
+
+This is forked from: github.com/chipzoller/hugo-clarity.  
+It adds the functionality for working with the podcasts RSS feed (compatible with Apple Podcasts). 
+
+The RSS feed URL is available at http://localhost:1313/feed/podcast/index.xml
+
+Everything else, is from the original work:
+
 # Hugo Clarity
 
 A technology-minded theme for Hugo based on VMware's open-source [Clarity Design System](https://clarity.design/) featuring rich code support, dark/light mode, mobile support, and much more. See [a live demo at __neonmirrors.net__](https://neonmirrors.net/).
@@ -18,24 +27,48 @@ A technology-minded theme for Hugo based on VMware's open-source [Clarity Design
 
 ## Table of Contents
 
-* [Features](#features)
-* [Prerequisites](#prerequisites)
-* [Getting up and running](#getting-up-and-running)
-* [Configuration](#configuration)
-  * [Global Parameters](#global-parameters)
-  * [Page Parameters](#page-parameters)
-  * [Modify links](#modify-links-menu)
-  * [Social media](#social-media)
-  * [Search Engine](#search-engine)
-  * [Blog directory](#blog-directory)
-  * [Mobile menu positioning](#mobile-menu-positioning)
-  * [Tags and taxonomies](#tags-and-taxonomies)
-  * [Images](#images)
-  * [Code](#code)
-  * [Table of contents](#table-of-contents)
-  * [Custom CSS and JS](#custom-css-and-js)
-  * [Forcing light or dark mode](#forcing-light-or-dark-mode)
-  * [Internationalization - I18N](#i18n)
+- [Hugo Redon Podcast](#hugo-redon-podcast)
+- [Hugo Clarity](#hugo-clarity)
+  - [Preview on Desktop](#preview-on-desktop)
+  - [Preview on Mobile](#preview-on-mobile)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Prerequisites](#prerequisites)
+  - [Getting up and running](#getting-up-and-running)
+    - [Option 1 (recommended)](#option-1-recommended)
+    - [Option 2 (Great for testing quickly)](#option-2-great-for-testing-quickly)
+  - [Configuration](#configuration)
+    - [Global Parameters](#global-parameters)
+    - [Page Parameters](#page-parameters)
+    - [Modify links menu](#modify-links-menu)
+    - [Social media](#social-media)
+    - [Search engine](#search-engine)
+    - [Blog directory](#blog-directory)
+    - [Mobile menu positioning](#mobile-menu-positioning)
+    - [Tags and Taxonomies](#tags-and-taxonomies)
+      - [Show number of tags](#show-number-of-tags)
+      - [Number of tags example](#number-of-tags-example)
+    - [Images](#images)
+      - [Image figure captions](#image-figure-captions)
+      - [Image figure captions example](#image-figure-captions-example)
+      - [Inline images](#inline-images)
+      - [Inline images example](#inline-images-example)
+      - [Float images to the left](#float-images-to-the-left)
+      - [Float images left example](#float-images-left-example)
+      - [Add classes to images](#add-classes-to-images)
+      - [Image class example](#image-class-example)
+      - [Article thumbnail image](#article-thumbnail-image)
+      - [Article featured image](#article-featured-image)
+      - [Share Image](#share-image)
+      - [Align logo](#align-logo)
+    - [Code](#code)
+      - [Display line numbers](#display-line-numbers)
+      - [Limit code block height](#limit-code-block-height)
+    - [Table of contents](#table-of-contents-1)
+    - [Table of contents (TOC) example](#table-of-contents-toc-example)
+    - [Custom CSS and JS](#custom-css-and-js)
+    - [Forcing light or dark mode](#forcing-light-or-dark-mode)
+    - [I18N](#i18n)
 
 ## Features
 

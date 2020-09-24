@@ -11,5 +11,5 @@
 - item: "instagram"
   url: "https://instagram.com/#"
 - item: "rss"
-  url: "index.xml"
+  url: "feed/podcast/index.xml"
   internal:  true
