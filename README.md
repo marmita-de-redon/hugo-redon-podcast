@@ -1,3 +1,12 @@
+# Hugo Redon Podcast
+
+This is forked from: github.com/chipzoller/hugo-clarity.  
+It adds the functionality for working with the podcasts RSS feed (compatible with Apple Podcasts). 
+
+The RSS feed URL is available at http://localhost:1313/feed/podcast/index.xml
+
+Everything else, is from the original work:
+
 # Hugo Clarity
 
 A technology-minded theme for Hugo based on VMware's open-source [Clarity Design System](https://clarity.design/) featuring rich code support, dark/light mode, mobile support, and much more. See [a live demo at __neonmirrors.net__](https://neonmirrors.net/).

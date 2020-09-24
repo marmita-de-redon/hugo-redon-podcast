@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2020 Chip Zoller and Dan Weru
+Copyright (c) 2020 Marmita de Redon
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,17 +20,22 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+
+
+=================================================================================
 Hugo Theme Template
+=================================================================================
+The MIT License (MIT)
+
+Original work Copyright (c) 2020 Chip Zoller and Dan Weru
+
 =================================================================================
 The MIT License (MIT)
 
 Original work Copyright (c) 2014 Steve Francia
 
-Staticman's reCAPTCHA support
 =================================================================================
-
 The MIT License (MIT)
 
 Original work Copyright (c) 2019 Praveen Lobo and Munif Tanjim
-The MIT License (MIT)
 

@@ -24,3 +24,5 @@
 {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
+  <!--TODO: fix me
+  <link type="application/rss+xml" rel="alternate" title="{{.Site.Title}}: {{.Site.Params.feed.itunes_subtitle}}" href="{{ .Site.BaseURL }}feed/podcast/index.xml">

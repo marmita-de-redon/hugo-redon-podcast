@@ -37,6 +37,9 @@ other = "Tags"
 [series]
 other = "Series"
 
+[seasons]
+other = "Seasons"
+
 [all_categories]
 other = "All Categories"
 

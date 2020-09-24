@@ -37,6 +37,9 @@ other = "Etiquetas"
 [series]
 other = "Séries"
 
+[seasons]
+other = "Temporadas"
+
 [all_categories]
 other = "Todas as Categorias"
 
@@ -47,7 +50,7 @@ other = "Todas as Etiquetas"
 other = "Todas as Séries"
 
 [overview]
-other = "Overview"
+other = "Visão geral"
 
 [reading_time]
-other = "{{ .ReadingTime }} min read"
+other = "{{ .ReadingTime }} min leitura"
