@@ -97,3 +97,20 @@ enable = false # To enable matomo analytics change to `true`.
 websiteDomain = "example.com" # Set the domain name of your website, in most cases same as your base URL this is required.
 matomoDomain = "matomo.example.com" # Set to Matomo domain
 matomoSiteID = "1" # Default is set to 1, change this to the siteid being tracked
+
+# Podcast specifics
+[feed]
+copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved." #do not use markdown in this field; it is used in the feed
+itunes_subtitle = "Here lies the podcast itunes subtitle" #no markdown or HTML
+itunes_author = "Here lies the podcast itunes author" #no markdown or HTML
+itunes_summary = "Here lies the podcast itunes summary" # Limited to 4000 characters or less, plain text, no HTML
+itunes_owner_email = "real_itunes_email@example.com" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on Apple Podcasts. It will not be publicly displayed on Apple Podcasts.
+itunes_owner_name = "John Doe" # Name of the person with itunes_owner_email
+itunes_image = "images/thumbnail.png" #fqdn to the image art for your podcast
+itunes_top_category = "Society & Culture"
+itunes_first_sub_category = "Leisure"
+itunes_second_sub_category = "History"
+language = "en-en"
+explicit = "clean" # This tag can be a yes / no / clean
+googleplay_explicit = "No" # This tag can be a Yes or No value.
+update_period = "weekly" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
