@@ -275,3 +275,10 @@ function disableCodeLineNumbers(block){
     });
   })();
 })();
+
+
+function changePlaybackSpeed(audioElementID, playbackSpeed){
+  const audioElement = document.getElementById(audioElementID);
+  audioElement.playbackRate = playbackSpeed;
+};
+
